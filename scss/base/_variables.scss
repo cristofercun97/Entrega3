@@ -1,0 +1,20 @@
+//variables
+
+$font-p: 1.8rem;
+$font-h1: 3.0rem;
+$font-h2: 2.4rem;
+$font-h3: 2.0rem;
+
+p{
+    font-size:$font-p;
+    color: rgb(134, 132, 132);
+}
+
+h2{
+    font-size: $font-h2;
+}
+
+h3{
+    font-size:$font-h3;
+    font-weight:lighter;
+}

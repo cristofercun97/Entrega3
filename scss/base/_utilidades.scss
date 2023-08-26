@@ -1,0 +1,22 @@
+//extend & mixin
+
+.btn-principal{
+    @extend .btn;
+    color: #fff;
+    background-color: aqua;
+} 
+
+.btn-secundario{
+    @extend .btn;
+    background-color: rgb(134, 132, 132);
+} 
+
+
+//uso de mixins en sass;
+
+@mixin caja-flex($principal, $cruzado, $wrap){
+    display:flex ;
+    justify-content: $principal;
+    align-items: $cruzado;
+    flex-wrap: $wrap;
+} 

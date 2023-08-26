@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,*::before, *::after{
+    box-sizing:inherit;
+} 
+
+body{
+    margin:0;
+    padding:0;
+    line-height:1.6;
+    background: rgb(217, 243, 245);
+    position: relative;
+    padding-bottom: 40em;
+    min-height: 100vh;
+} 
+

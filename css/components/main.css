@@ -1,0 +1,13 @@
+.logo {
+  width: 100px;
+  height: 20px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  border-top: 30px solid rgb(52, 53, 51);
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */
